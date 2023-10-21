@@ -7,37 +7,47 @@ body {
   min-height: 100vh;
 }
 
-#pdf-container {
+#resume-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-/* Large screens (default) */
-object {
-    width: 80%;
-    height: 90%;
+#download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-/* Tablets */
+#resume-image {
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the resume */
+}
+
+/* Responsive Styling */
+
 @media (max-width: 768px) {
-    object {
-        width: 90%;
-        height: 80%;
+    #resume-image {
+        max-width: 95%;
     }
 }
 
-/* Mobile phones */
 @media (max-width: 480px) {
-    object {
-        width: 95%;
-        height: 70%;
+    #resume-image {
+        max-width: 100%;
     }
-    #pdf-container {
-      height: 90vh;
+
+    #resume-container {
+        padding: 10px;
     }
 }
-
-
