@@ -20,14 +20,19 @@ body {
 }
 
 #download-button {
-    display: inline-block;
+  display: inline-block;
     padding: 10px 20px;
     margin-bottom: 20px;
-    background-color: blue;
+    background-color: #003660;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#download-buttom:hover {
+    background-color: #FEBC11
 }
 
 #resume-image {
