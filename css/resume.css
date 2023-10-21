@@ -12,4 +12,32 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
+
+/* Large screens (default) */
+object {
+    width: 80%;
+    height: 90%;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    object {
+        width: 90%;
+        height: 80%;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    object {
+        width: 95%;
+        height: 70%;
+    }
+    #pdf-container {
+      height: 90vh;
+    }
+}
+
+
