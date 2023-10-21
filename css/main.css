@@ -13,6 +13,15 @@ body {
     margin: auto;
 }
 
+/* Profile Pic and Seal Container */
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* profile pic */
 
 #profile-pic {
