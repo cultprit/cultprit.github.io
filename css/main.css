@@ -13,9 +13,13 @@ body {
     margin: auto;
 }
 
-#profile-pic,
-#uni-seal {
+#profile-pic {
     max-width: 900px;
+    height: auto;
+}
+
+#uni-seal {
+    max-width: 300px;
     height: auto;
 }
 
@@ -28,7 +32,7 @@ body {
 }
 
 #bio {
-    font-size: 24px;
+    font-size: 30px;
     color: #333;
 }
 
