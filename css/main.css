@@ -19,8 +19,17 @@ body {
     height: auto;
 }
 
+#bio-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
 #bio {
-    font-size: 16px;
+    font-size: 24px;
+    color: #333;
 }
 
 #more-button {
