@@ -1,10 +1,12 @@
-
 body {
   background-image: url("../assets/ResumeBackground.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #resume-container {
@@ -32,22 +34,4 @@ body {
     max-width: 90%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the resume */
-}
-
-/* Responsive Styling */
-
-@media (max-width: 768px) {
-    #resume-image {
-        max-width: 95%;
-    }
-}
-
-@media (max-width: 480px) {
-    #resume-image {
-        max-width: 100%;
-    }
-
-    #resume-container {
-        padding: 10px;
-    }
 }
