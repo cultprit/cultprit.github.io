@@ -13,15 +13,29 @@ body {
     margin: auto;
 }
 
+/* profile pic */
+
 #profile-pic {
     max-width: 900px;
     height: auto;
 }
 
+/* university seal */
+
+#seal-container {
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 20px auto;  /* Centers the container */
+    display: inline-block;  /* Makes the container as wide as the content */
+}
+
 #uni-seal {
-    max-width: 300px;
+    max-width: 150px;
     height: auto;
 }
+
+/* bio */
 
 #bio-container {
     background-color: rgba(255, 255, 255, 0.8);
@@ -35,6 +49,8 @@ body {
     font-size: 30px;
     color: #333;
 }
+
+/* More Button */
 
 #more-button {
     display: inline-block;
