@@ -6,3 +6,10 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
+#pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
