@@ -25,7 +25,7 @@ body {
 /* profile pic */
 
 #profile-pic {
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     border-radius: 50%;
     border: 5px solid black;
@@ -36,7 +36,7 @@ body {
 
 #seal-container {
     background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px; /* Optional: rounded corners */
     margin: 20px auto;  /* Centers the container */
     display: inline-block;  /* Makes the container as wide as the content */
