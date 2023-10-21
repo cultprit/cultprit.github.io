@@ -27,6 +27,9 @@ body {
 #profile-pic {
     max-width: 600px;
     height: auto;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 }
 
 /* university seal */
