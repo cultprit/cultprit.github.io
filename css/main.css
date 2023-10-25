@@ -18,6 +18,26 @@ body {
     width: 100%;
     box-sizing: border-box;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-links {
+    margin: 0 auto;
+}
+
+#main-links li {
+    float: none;
+    display: inline;
+}
+
+#icon-links {
+    margin-right: 20px; /* adjust this value to move icons closer and farther together */
+}
+
+#icon-links li {
+    float: left;
 }
 
 #navbar ul {
