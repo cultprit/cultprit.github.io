@@ -23,7 +23,7 @@ body {
 }
 
 #navbar ul li {
-    float: right;
+    float: left;
 }
 
 #navbar ul li a {
