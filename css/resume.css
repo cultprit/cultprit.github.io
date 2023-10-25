@@ -20,6 +20,16 @@ body {
     max-width: 60%;
 }
 
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Same color as #resume-container */
+    border-radius: 15px; /* Same rounded corners */
+    padding: 10px; /* Spacing around the button */
+    margin-bottom: 20px; /* Margin to separate it from the resume container */
+}
+
 #download-button {
   display: inline-block;
     padding: 10px 20px;
