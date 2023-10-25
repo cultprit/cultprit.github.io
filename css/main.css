@@ -24,7 +24,10 @@ body {
 }
 
 #main-links {
-    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-item: center;
 }
 
 #main-links li {
