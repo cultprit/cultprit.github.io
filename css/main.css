@@ -1,9 +1,11 @@
-body {
+body, ul {
     background-image: url("../assets/WebsiteBackground.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navigation Bar Menu */
