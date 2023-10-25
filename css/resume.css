@@ -20,7 +20,7 @@ body {
     border-radius: 15px; /* Rounded edges */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     max-width: 60%;
-    margin-top: 84px;
+    margin-top: 95px;
 }
 
 #button-container {
@@ -29,7 +29,7 @@ body {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8); /* Same color as #resume-container */
     border-radius: 15px; /* Same rounded corners */
-    padding: 1px; /* Spacing around the button */
+    padding: 5px; /* Spacing around the button */
     position: absolute;
     top: 0;
     left: 50%;
