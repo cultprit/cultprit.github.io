@@ -25,7 +25,7 @@ body {
 /* profile pic */
 
 #profile-pic {
-    max-width: 400px;
+    max-width: 200px;
     height: auto;
     border-radius: 50%;
     border: 5px solid black;
@@ -43,7 +43,7 @@ body {
 }
 
 #uni-seal {
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -54,7 +54,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 #bio {
