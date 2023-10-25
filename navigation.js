@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
   `;
 
   // Locate the element where you want to insert the navigation
-  var navbarContainer = document.getElementById('navbar-container');
+  var navbarContainer = document.getElementById('nav-container');
   
   // Insert the navigation HTML
   if (navbarContainer) {
