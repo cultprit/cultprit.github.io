@@ -39,6 +39,12 @@ body {
     height: 24px;
 }
 
+/* ------controls the icons of logos-------------*/
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
 /* --Container that holds picture, seal, and bio-----*/
 
 #wrapper {
