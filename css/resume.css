@@ -52,7 +52,7 @@ body {
 }
 
 #resume-image {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the resume */
 }
