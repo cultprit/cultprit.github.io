@@ -39,8 +39,8 @@ body {
 }
 
 #navbar ul li a img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
 
 /* ------controls the icons of logos-------------*/
@@ -71,7 +71,7 @@ body {
 /* profile pic */
 
 #profile-pic {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
     border-radius: 50%;
     border: 5px solid white;
