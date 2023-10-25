@@ -17,7 +17,7 @@ body {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
     border-radius: 15px; /* Rounded edges */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    max-width: 75%;
+    max-width: 60%;
 }
 
 #download-button {
