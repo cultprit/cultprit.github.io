@@ -31,7 +31,6 @@ body {
     position: fixed; /* fix position*/
     top: 0; /* stick to the top */
     left: 50; /* center horizontally */
-    transform: translateX(-50%); /* adjust for exact center */
     z-index: 999; /* ensure it stays above other elements */
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 #resume-image {
-    max-width: 95%;
+    max-width: 100%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the resume */
 }
