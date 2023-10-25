@@ -28,6 +28,11 @@ body {
     border-radius: 15px; /* Same rounded corners */
     padding: 10px; /* Spacing around the button */
     margin-bottom: 20px; /* Margin to separate it from the resume container */
+    position: fixed; /* fix position*/
+    top: 0; /* stick to the top */
+    left: 50; /* center horizontally */
+    transform: translateX(-50%); /* adjust for exact center */
+    z-index: 999; /* ensure it stays above other elements */
 }
 
 #download-button {
