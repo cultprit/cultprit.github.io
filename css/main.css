@@ -23,10 +23,6 @@ body {
     align-items: center;
 }
 
-#ghost {
-    flex-shrink: 0;
-    width: calc(2 * (24px + 14px + 16px));
-
 #main-links {
     flex-grow: 1;
     display: flex;
@@ -151,75 +147,3 @@ body {
 #more-button:hover {
     background-color: #FEBC11
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
