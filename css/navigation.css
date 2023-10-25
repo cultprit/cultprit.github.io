@@ -1,1 +1,57 @@
+/* Navigation Bar Menu */
 
+#navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed; /* This makes the navbar fixed at the top */
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+
+#main-links li {
+    float: none;
+    display: inline;
+}
+
+#icon-links {
+    margin-right: 20px; /* adjust this value to move icons closer and farther together */
+}
+
+#icon-links li {
+    float: left;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    float: right;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar ul li a img {
+    width: 28px;
+    height: 28px;
+}
